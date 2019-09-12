@@ -38,11 +38,17 @@ def input_number():
         print("Please enter an integer")
         return input_number()
 
+# Collect input from the user
 user_input = input_number()
+# Start the timer
 start = time.time()
+# Create the nested list
 input = build_nested_list(user_input)
+# Flatten the list
 flatten_array = flatten(input)
+# End the timer
 end = time.time()
+# Print results
 print("Nested List of Integers")
 print(input)
 print("Flattened List of Integers")
