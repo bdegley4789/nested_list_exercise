@@ -1,4 +1,4 @@
-# nested_listed_exercise
+# nested_list_exercise
 
 ### Creator: Bryce Egley
 ## Run 
